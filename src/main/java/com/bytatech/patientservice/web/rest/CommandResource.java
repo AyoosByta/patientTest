@@ -120,7 +120,7 @@ public class CommandResource {
 	            throw new BadRequestAlertException("A new patient cannot already have an ID", ENTITY_NAME, "idexists");
 	        }
 	     
-	    commandService.createPersonOnDMS(patientDTO);
+	  //  commandService.createPersonOnDMS(patientDTO);
 
 		String siteId = patientDTO.getIdpCode() + "site";
 
